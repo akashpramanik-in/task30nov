@@ -1,48 +1,54 @@
 @font-face {
-    font-family:CRONDE;
+    font-family: CRONDE;
     src: url(./fonts/CRONDE.otf);
 }
+
 @font-face {
-    font-family:PORSCHA;
+    font-family: PORSCHA;
     src: url(./fonts/911porschav3.ttf);
 }
 
 
 
 
-*{
+* {
     margin: 0;
-     padding: 0;
-      box-sizing: border-box;
-    }
-html, body{
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,
+body {
     height: 100%;
     width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
     background-color: #ffffff;
-    
+
 }
+
 /* working on nav bar */
-#NAV{
+#NAV {
     height: 80px;
     width: 100%;
     position: absolute;
     top: 2px;
     left: 0;
-    
+
 }
-#LOGO{
+
+#LOGO {
     height: 120px;
     width: 120px;
     background-image: url(https://logodownload.org/wp-content/uploads/2021/02/porsche-logo-0.png);
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center;
-   margin-top: -2%;
+    margin-top: -2%;
 }
-#MENU{
+
+#MENU {
     height: 100%;
     width: 45%;
     float: right;
@@ -54,7 +60,8 @@ html, body{
     margin-top: -6.5%;
     color: rgb(0, 0, 0);
 }
-#MENU button{
+
+#MENU button {
     height: 40px;
     width: 155px;
     border-radius: 20px;
@@ -65,8 +72,9 @@ html, body{
     font-size: 19px;
     cursor: pointer;
 }
+
 /* working on hero section */
-#hero{
+#hero {
     height: 838px;
     width: 100%;
     background-color: #ffffff;
@@ -77,32 +85,26 @@ html, body{
     position: relative;
     margin-top: 11%;
 }
-#herotx{
-    /* height:220px;
-    width: 600px;
-    margin-left: 30%;
-    */
-
-
-}
-#herotx h4{
+#herotx h4 {
     font-family: CRONDE;
     font-size: 90px;
     color: rgb(0, 0, 0);
     text-align: center;
     font-family: PORSCHA;
-   margin-top: 30px;
-   font-weight: lighter;
+    margin-top: 30px;
+    font-weight: lighter;
 }
-#boldline{
-    height:200px;
+
+#boldline {
+    height: 200px;
     width: 150px;
     background-color: rgb(255, 0, 0);
     margin-left: 660px;
     margin-top: -338px;
 }
-#sline{
-    height:40px;
+
+#sline {
+    height: 40px;
     width: 150px;
     background-color: rgb(255, 0, 0);
     margin-left: 660px;
